@@ -284,25 +284,42 @@
                     </li>
                     <li>
                         <h3>
-                            <span>Model Compression and Network Pruning <br>
+                            <span>Pruning-aware Sparse Regularization for Network Pruning  <br>
+                                  National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences <br>
+                                  Supervisor: Prof. Jinqiao Wang 
+                            </span>
+                            <time>01/2021 - 09/2021</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>Proposed a novel pruning method, MaskSparsity, with pruning-aware sparse regularization.
+                               
+                            <li>Only applied the sparse regularization on the unimportant channels 
+                                to be pruned and minimized the negative impact of the sparse regularization on important channels.
+                                
+                            <li>Achieved 63.03%-FLOPs reduction on ResNet-110 by removing 60.34% of the parameters with no 
+                                top-1 accuracy loss on CIFAR-10, which exceeds the previous state-of-the-art performance.
+                                
+                            <li>Reduced more than 51.07% FLOPs on ResNet-50 with only a loss of 0.76% in the top-1 accuracy, 
+                                which shows superiority over the previous state-of-the-art methods.
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>Pruning Lightweight Face Detection Network by Sparsity Training <br>
                                   National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences <br>
                                   Supervisor: Prof. Jinqiao Wang </span>
-                            <time>01/2021 - Present</time>
+                            <time>01/2021 - 07/2021</time>
                         </h3>
                         <ul class="info-content">
                             <li>Used network slimming algorithms, including structured sparsity and optimal thresholding to reduce the parameters, float-point-operations, and run-time memory of the model.
-                                <!-- <mark>全站图片懒加载</mark>、活动banner、帖子管理（使用Yii框架）等功能。项目采用技术栈phpWind+NAMP。
-                                <a href="http://itsay.tech/162/" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。</li> -->
+                                
                             <li>Performed the network training with sparsity regularization on channel scaling factors of each layer, 
                                 and then removed the connections and the corresponding weights with the near-zero scaling factors after the sparsity training.
-                                <!-- <mark>第三方账号登录</mark>等功能。项目采用技术栈WordPress+NAMP。</li> -->
+                                
                             <li>Applied the proposed pruning pipeline on a state-of-the-art face detection method, 
                                 EagleEye, and got a shrunken model which has a reduced number of computing operations and parameters.</li>
                             <li>Achieved 56.3% reduction of parameter size with almost no accuracy loss on WiderFace dataset.
-                                <!-- <mark>图片增量备份</mark>（CentOS+vsftpd+crontab）
-                                <a href="#" target="_blank">
-                                    <i class="fa fa-link" aria-hidden="true"></i>博客文章</a>。</li> -->
+                                
                         </ul>
                     </li>
                     <li>
@@ -455,7 +472,7 @@
 
     <footer class="footer">
         <p>© 2021 Zhexiao Xiong. The lataset update:
-            <time>2021.8.29</time>.</p>
+            <time>2021.9.12</time>.</p>
     </footer>
 
     <!-- 侧栏 -->
@@ -474,4 +491,6 @@
 </body>
 
 </html>
+
+           
 
